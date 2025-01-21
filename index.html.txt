@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пазл Игра</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Пазл Игра</h1>
+    <label for="difficulty">Выберите сложность:</label>
+    <select id="difficulty">
+        <option value="4">4x4</option>
+        <option value="6">6x6</option>
+        <option value="8">8x8</option>
+    </select>
+    <button onclick="startGame()">Начать игру</button>
+    <p id="timer">Время: 00:00</p>
+    <div id="puzzle-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
